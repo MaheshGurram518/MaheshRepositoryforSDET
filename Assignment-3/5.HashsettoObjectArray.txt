@@ -1,0 +1,22 @@
+package CaseStudyPkg;
+
+import java.util.HashSet;
+
+public class HashsetToObjectArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  HashSet<Integer> h = new HashSet<Integer>();
+
+		    h.add(new Integer("1"));
+		    h.add(new Integer("2"));
+		    h.add(new Integer("3"));
+
+		    Object[] objArray = h.toArray();
+
+		    for (Object obj : objArray)
+		      System.out.println(obj);
+
+	}
+
+}

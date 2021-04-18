@@ -1,0 +1,21 @@
+package CaseStudyPkg;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+public class ReverseArrayList {
+
+	public static void main(String[] args) {
+	     List<String> li = new ArrayList<String>();  
+	        li.add("RCB");  
+	        li.add("SRH");  
+	        li.add("MI");  
+	        li.add("CSK");  
+	        li.add("RR");  
+	        li.add("KXIP");  
+	        System.out.println("Array List Before Reversing");  
+	        System.out.println(li.toString());  
+	        Collections.reverse(li);  
+	        System.out.println("Array List after Reversing");  
+	        System.out.println(li);  
+	    }  
+	}  
